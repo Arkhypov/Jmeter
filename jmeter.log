@@ -1,0 +1,409 @@
+2018-02-17 18:50:28,565 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-02-17 18:50:28,577 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\Jmeter\bin\user.properties
+2018-02-17 18:50:28,578 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\Jmeter\bin\system.properties
+2018-02-17 18:50:28,583 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-02-17 18:50:28,583 INFO o.a.j.JMeter: Version 3.2 r1790748
+2018-02-17 18:50:28,583 INFO o.a.j.JMeter: java.version=1.8.0_66
+2018-02-17 18:50:28,584 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-02-17 18:50:28,584 INFO o.a.j.JMeter: os.name=Windows 10
+2018-02-17 18:50:28,584 INFO o.a.j.JMeter: os.arch=amd64
+2018-02-17 18:50:28,584 INFO o.a.j.JMeter: os.version=10.0
+2018-02-17 18:50:28,584 INFO o.a.j.JMeter: file.encoding=Cp1252
+2018-02-17 18:50:28,584 INFO o.a.j.JMeter: Max memory     =536870912
+2018-02-17 18:50:28,584 INFO o.a.j.JMeter: Available Processors =4
+2018-02-17 18:50:28,587 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-02-17 18:50:28,588 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-02-17 18:50:28,588 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\Jmeter
+2018-02-17 18:50:28,588 INFO o.a.j.JMeter: user.dir  =C:\Users\yarkh\Desktop\Jmeter
+2018-02-17 18:50:28,588 INFO o.a.j.JMeter: PWD       =C:\Users\yarkh\Desktop\Jmeter
+2018-02-17 18:50:33,117 INFO o.a.j.JMeter: IP: 192.168.159.1 Name: DESKTOP-K2OAQEC FullName: DESKTOP-K2OAQEC
+2018-02-17 18:50:33,120 INFO o.a.j.s.FileServer: Default base='C:\Users\yarkh\Desktop\Jmeter'
+2018-02-17 18:50:33,121 INFO o.a.j.s.FileServer: Set new base='C:\Users\yarkh\Desktop\Jmeter'
+2018-02-17 18:50:33,226 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-02-17 18:50:33,237 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-02-17 18:50:33,253 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-02-17 18:50:33,259 INFO o.a.j.s.SaveService: Loading file: InRhythmParser.jmx
+2018-02-17 18:50:33,307 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-17 18:50:33,307 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-17 18:50:33,308 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-17 18:50:33,308 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-02-17 18:50:33,308 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-02-17 18:50:33,308 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-02-17 18:50:33,327 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-02-17 18:50:33,346 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-02-17 18:50:33,347 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-17 18:50:33,347 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-02-17 18:50:33,357 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-02-17 18:50:33,357 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-02-17 18:50:33,746 INFO o.a.j.JMeter: Running test (1518911433746)
+2018-02-17 18:50:33,792 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : linkNavigation
+2018-02-17 18:50:33,792 INFO o.a.j.e.StandardJMeterEngine: Starting 170 threads for group linkNavigation.
+2018-02-17 18:50:33,792 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-02-17 18:50:33,795 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=170 ramp-up=30 perThread=176.47058 delayedStart=false
+2018-02-17 18:50:33,879 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-02-17 18:50:33,879 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-02-17 18:50:33,882 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-1
+2018-02-17 18:50:33,916 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-K2OAQEC
+2018-02-17 18:50:33,924 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-02-17 18:50:33,935 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-02-17 18:50:33,935 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-02-17 18:50:33,935 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-02-17 18:50:33,935 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-02-17 18:50:34,058 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-2
+2018-02-17 18:50:34,058 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-02-17 18:50:34,068 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-02-17 18:50:34,068 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-02-17 18:50:34,234 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-3
+2018-02-17 18:50:34,300 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-02-17 18:50:34,301 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-02-17 18:50:34,301 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-02-17 18:50:34,412 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-4
+2018-02-17 18:50:34,591 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-5
+2018-02-17 18:50:34,643 INFO o.a.j.r.Summariser: summary +      1 in 00:00:01 =    1.1/s Avg:   568 Min:   568 Max:   568 Err:     1 (100.00%) Active: 5 Started: 5 Finished: 0
+2018-02-17 18:50:34,772 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-6
+2018-02-17 18:50:34,946 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-7
+2018-02-17 18:50:35,088 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-8
+2018-02-17 18:50:35,267 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-9
+2018-02-17 18:50:35,449 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-10
+2018-02-17 18:50:35,627 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-11
+2018-02-17 18:50:35,794 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-12
+2018-02-17 18:50:35,969 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-13
+2018-02-17 18:50:36,147 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-14
+2018-02-17 18:50:36,329 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-15
+2018-02-17 18:50:36,515 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-16
+2018-02-17 18:50:36,690 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-17
+2018-02-17 18:50:36,867 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-18
+2018-02-17 18:50:37,047 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-19
+2018-02-17 18:50:37,224 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-20
+2018-02-17 18:50:37,400 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-21
+2018-02-17 18:50:37,585 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-22
+2018-02-17 18:50:37,736 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-23
+2018-02-17 18:50:37,966 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-24
+2018-02-17 18:50:38,107 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-25
+2018-02-17 18:50:38,294 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-26
+2018-02-17 18:50:38,446 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-27
+2018-02-17 18:50:38,625 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-28
+2018-02-17 18:50:38,817 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-29
+2018-02-17 18:50:38,986 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-30
+2018-02-17 18:50:39,175 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-31
+2018-02-17 18:50:39,348 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-32
+2018-02-17 18:50:39,525 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-33
+2018-02-17 18:50:39,676 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-34
+2018-02-17 18:50:39,896 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-35
+2018-02-17 18:50:40,092 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-36
+2018-02-17 18:50:40,232 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-37
+2018-02-17 18:50:40,409 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-38
+2018-02-17 18:50:40,589 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-39
+2018-02-17 18:50:40,796 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-40
+2018-02-17 18:50:40,939 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-41
+2018-02-17 18:50:41,121 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-42
+2018-02-17 18:50:41,291 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-43
+2018-02-17 18:50:41,471 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-44
+2018-02-17 18:50:41,644 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-45
+2018-02-17 18:50:41,821 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-46
+2018-02-17 18:50:41,998 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-47
+2018-02-17 18:50:42,175 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-48
+2018-02-17 18:50:42,351 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-49
+2018-02-17 18:50:42,543 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-50
+2018-02-17 18:50:42,674 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-51
+2018-02-17 18:50:42,955 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-52
+2018-02-17 18:50:43,059 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-53
+2018-02-17 18:50:43,233 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-54
+2018-02-17 18:50:43,382 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-55
+2018-02-17 18:50:43,558 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-56
+2018-02-17 18:50:43,736 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-57
+2018-02-17 18:50:43,962 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-58
+2018-02-17 18:50:44,146 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-59
+2018-02-17 18:50:44,319 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-60
+2018-02-17 18:50:44,492 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-61
+2018-02-17 18:50:44,669 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-62
+2018-02-17 18:50:44,843 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-63
+2018-02-17 18:50:45,019 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-64
+2018-02-17 18:50:45,196 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-65
+2018-02-17 18:50:45,373 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-66
+2018-02-17 18:50:45,552 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-67
+2018-02-17 18:50:45,726 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-68
+2018-02-17 18:50:45,903 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-69
+2018-02-17 18:50:46,087 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-70
+2018-02-17 18:50:46,254 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-71
+2018-02-17 18:50:46,431 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-72
+2018-02-17 18:50:46,607 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-73
+2018-02-17 18:50:46,783 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-74
+2018-02-17 18:50:46,969 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-75
+2018-02-17 18:50:47,138 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-76
+2018-02-17 18:50:47,311 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-77
+2018-02-17 18:50:47,489 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-78
+2018-02-17 18:50:47,665 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-79
+2018-02-17 18:50:47,842 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-80
+2018-02-17 18:50:48,018 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-81
+2018-02-17 18:50:48,195 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-82
+2018-02-17 18:50:48,371 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-83
+2018-02-17 18:50:48,548 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-84
+2018-02-17 18:50:48,724 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-85
+2018-02-17 18:50:48,957 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-86
+2018-02-17 18:50:49,116 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-87
+2018-02-17 18:50:49,252 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-88
+2018-02-17 18:50:49,437 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-89
+2018-02-17 18:50:49,605 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-90
+2018-02-17 18:50:49,782 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-91
+2018-02-17 18:50:49,958 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-92
+2018-02-17 18:50:50,135 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-93
+2018-02-17 18:50:50,311 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-94
+2018-02-17 18:50:50,488 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-95
+2018-02-17 18:50:50,672 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-96
+2018-02-17 18:50:50,848 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-97
+2018-02-17 18:50:51,016 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-98
+2018-02-17 18:50:51,193 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-99
+2018-02-17 18:50:51,369 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-100
+2018-02-17 18:50:51,546 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-101
+2018-02-17 18:50:51,738 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-102
+2018-02-17 18:50:51,899 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-103
+2018-02-17 18:50:52,078 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-104
+2018-02-17 18:50:52,252 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-105
+2018-02-17 18:50:52,427 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-106
+2018-02-17 18:50:52,612 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-107
+2018-02-17 18:50:52,786 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-108
+2018-02-17 18:50:52,962 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-109
+2018-02-17 18:50:53,134 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-110
+2018-02-17 18:50:53,309 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-111
+2018-02-17 18:50:53,487 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-112
+2018-02-17 18:50:53,670 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-113
+2018-02-17 18:50:53,839 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-114
+2018-02-17 18:50:54,016 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-115
+2018-02-17 18:50:54,207 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-116
+2018-02-17 18:50:54,369 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-117
+2018-02-17 18:50:54,546 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-118
+2018-02-17 18:50:54,721 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-119
+2018-02-17 18:50:54,898 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-120
+2018-02-17 18:50:55,073 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-121
+2018-02-17 18:50:55,249 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-122
+2018-02-17 18:50:55,426 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-123
+2018-02-17 18:50:55,602 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-124
+2018-02-17 18:50:55,783 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-125
+2018-02-17 18:50:55,957 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-126
+2018-02-17 18:50:56,133 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-127
+2018-02-17 18:50:56,309 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-128
+2018-02-17 18:50:56,485 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-129
+2018-02-17 18:50:56,674 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-130
+2018-02-17 18:50:56,837 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-131
+2018-02-17 18:50:57,014 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-132
+2018-02-17 18:50:57,190 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-133
+2018-02-17 18:50:57,366 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-134
+2018-02-17 18:50:57,543 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-135
+2018-02-17 18:50:57,761 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-136
+2018-02-17 18:50:57,897 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-137
+2018-02-17 18:50:58,072 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-138
+2018-02-17 18:50:58,269 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-139
+2018-02-17 18:50:58,425 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-140
+2018-02-17 18:50:58,601 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-141
+2018-02-17 18:50:58,838 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-142
+2018-02-17 18:50:58,963 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-143
+2018-02-17 18:50:59,141 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-144
+2018-02-17 18:50:59,306 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-145
+2018-02-17 18:50:59,484 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-146
+2018-02-17 18:50:59,702 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-147
+2018-02-17 18:50:59,836 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-148
+2018-02-17 18:51:00,012 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-149
+2018-02-17 18:51:00,059 INFO o.a.j.r.Summariser: summary +   2070 in 00:00:25 =   81.4/s Avg:   864 Min:    73 Max:  4509 Err:  2070 (100.00%) Active: 149 Started: 149 Finished: 0
+2018-02-17 18:51:00,074 INFO o.a.j.r.Summariser: summary =   2071 in 00:00:26 =   78.7/s Avg:   864 Min:    73 Max:  4509 Err:  2071 (100.00%)
+2018-02-17 18:51:00,189 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-150
+2018-02-17 18:51:00,385 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-151
+2018-02-17 18:51:00,542 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-152
+2018-02-17 18:51:00,718 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-153
+2018-02-17 18:51:00,894 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-154
+2018-02-17 18:51:01,097 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-155
+2018-02-17 18:51:01,248 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-156
+2018-02-17 18:51:01,424 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-157
+2018-02-17 18:51:01,600 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-158
+2018-02-17 18:51:01,808 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-159
+2018-02-17 18:51:01,953 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-160
+2018-02-17 18:51:02,191 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-161
+2018-02-17 18:51:02,306 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-162
+2018-02-17 18:51:02,505 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-163
+2018-02-17 18:51:02,659 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-164
+2018-02-17 18:51:02,835 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-165
+2018-02-17 18:51:03,011 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-166
+2018-02-17 18:51:03,188 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-167
+2018-02-17 18:51:03,423 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-168
+2018-02-17 18:51:03,572 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-169
+2018-02-17 18:51:03,759 INFO o.a.j.t.JMeterThread: Thread started: linkNavigation 1-170
+2018-02-17 18:51:30,001 INFO o.a.j.r.Summariser: summary +   2534 in 00:00:30 =   84.6/s Avg:  1921 Min:   805 Max: 10416 Err:  2534 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:51:30,009 INFO o.a.j.r.Summariser: summary =   4605 in 00:00:56 =   81.9/s Avg:  1446 Min:    73 Max: 10416 Err:  4605 (100.00%)
+2018-02-17 18:52:00,186 INFO o.a.j.r.Summariser: summary +   2476 in 00:00:30 =   82.0/s Avg:  1855 Min:   653 Max: 13269 Err:  2476 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:52:00,194 INFO o.a.j.r.Summariser: summary =   7081 in 00:01:26 =   81.9/s Avg:  1589 Min:    73 Max: 13269 Err:  7081 (100.00%)
+2018-02-17 18:52:30,014 INFO o.a.j.r.Summariser: summary +   2466 in 00:00:30 =   82.7/s Avg:  1781 Min:   602 Max: 22000 Err:  2466 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:52:30,020 INFO o.a.j.r.Summariser: summary =   9547 in 00:01:56 =   82.1/s Avg:  1638 Min:    73 Max: 22000 Err:  9547 (100.00%)
+2018-02-17 18:53:00,036 INFO o.a.j.r.Summariser: summary +   2503 in 00:00:30 =   83.4/s Avg:  1745 Min:   585 Max: 22570 Err:  2503 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:53:00,040 INFO o.a.j.r.Summariser: summary =  12050 in 00:02:26 =   82.4/s Avg:  1661 Min:    73 Max: 22570 Err: 12050 (100.00%)
+2018-02-17 18:53:30,033 INFO o.a.j.r.Summariser: summary +   2524 in 00:00:30 =   84.1/s Avg:  1740 Min:   626 Max: 13096 Err:  2524 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:53:30,097 INFO o.a.j.r.Summariser: summary =  14574 in 00:02:56 =   82.7/s Avg:  1674 Min:    73 Max: 22570 Err: 14574 (100.00%)
+2018-02-17 18:54:00,232 INFO o.a.j.r.Summariser: summary +   2545 in 00:00:30 =   84.3/s Avg:  1685 Min:   846 Max:  6641 Err:  2545 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:54:00,238 INFO o.a.j.r.Summariser: summary =  17119 in 00:03:26 =   82.9/s Avg:  1676 Min:    73 Max: 22570 Err: 17119 (100.00%)
+2018-02-17 18:54:30,015 INFO o.a.j.r.Summariser: summary +   2468 in 00:00:30 =   82.9/s Avg:  1668 Min:   784 Max: 15703 Err:  2468 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:54:30,020 INFO o.a.j.r.Summariser: summary =  19587 in 00:03:56 =   82.9/s Avg:  1675 Min:    73 Max: 22570 Err: 19587 (100.00%)
+2018-02-17 18:55:00,081 INFO o.a.j.r.Summariser: summary +   2522 in 00:00:30 =   83.9/s Avg:  1612 Min:   842 Max:  6323 Err:  2522 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:55:00,089 INFO o.a.j.r.Summariser: summary =  22109 in 00:04:26 =   83.0/s Avg:  1668 Min:    73 Max: 22570 Err: 22109 (100.00%)
+2018-02-17 18:55:30,115 INFO o.a.j.r.Summariser: summary +   2489 in 00:00:30 =   82.9/s Avg:  1599 Min:   645 Max: 11444 Err:  2489 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:55:30,119 INFO o.a.j.r.Summariser: summary =  24598 in 00:04:56 =   83.0/s Avg:  1661 Min:    73 Max: 22570 Err: 24598 (100.00%)
+2018-02-17 18:56:00,005 INFO o.a.j.r.Summariser: summary +   2512 in 00:00:30 =   84.0/s Avg:  1567 Min:   535 Max:  7519 Err:  2512 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:56:00,028 INFO o.a.j.r.Summariser: summary =  27110 in 00:05:26 =   83.1/s Avg:  1652 Min:    73 Max: 22570 Err: 27110 (100.00%)
+2018-02-17 18:56:30,000 INFO o.a.j.r.Summariser: summary +   2484 in 00:00:30 =   82.8/s Avg:  1557 Min:   611 Max:  7170 Err:  2484 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:56:30,005 INFO o.a.j.r.Summariser: summary =  29594 in 00:05:56 =   83.1/s Avg:  1644 Min:    73 Max: 22570 Err: 29594 (100.00%)
+2018-02-17 18:57:00,051 INFO o.a.j.r.Summariser: summary +   2514 in 00:00:30 =   83.7/s Avg:  1509 Min:   713 Max: 10268 Err:  2514 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:57:00,056 INFO o.a.j.r.Summariser: summary =  32108 in 00:06:26 =   83.1/s Avg:  1634 Min:    73 Max: 22570 Err: 32108 (100.00%)
+2018-02-17 18:57:30,086 INFO o.a.j.r.Summariser: summary +   2509 in 00:00:30 =   83.5/s Avg:  1482 Min:   723 Max:  6924 Err:  2509 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:57:30,093 INFO o.a.j.r.Summariser: summary =  34617 in 00:06:56 =   83.1/s Avg:  1623 Min:    73 Max: 22570 Err: 34617 (100.00%)
+2018-02-17 18:58:00,040 INFO o.a.j.r.Summariser: summary +   2525 in 00:00:30 =   84.3/s Avg:  1448 Min:   466 Max:  6189 Err:  2525 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:58:00,044 INFO o.a.j.r.Summariser: summary =  37142 in 00:07:26 =   83.2/s Avg:  1611 Min:    73 Max: 22570 Err: 37142 (100.00%)
+2018-02-17 18:58:30,019 INFO o.a.j.r.Summariser: summary +   2505 in 00:00:30 =   83.6/s Avg:  1434 Min:   711 Max:  6241 Err:  2505 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:58:30,033 INFO o.a.j.r.Summariser: summary =  39647 in 00:07:56 =   83.2/s Avg:  1600 Min:    73 Max: 22570 Err: 39647 (100.00%)
+2018-02-17 18:59:00,067 INFO o.a.j.r.Summariser: summary +   2477 in 00:00:30 =   82.4/s Avg:  1439 Min:   500 Max: 22246 Err:  2477 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:59:00,078 INFO o.a.j.r.Summariser: summary =  42124 in 00:08:26 =   83.2/s Avg:  1590 Min:    73 Max: 22570 Err: 42124 (100.00%)
+2018-02-17 18:59:30,217 INFO o.a.j.r.Summariser: summary +   2524 in 00:00:30 =   83.7/s Avg:  1411 Min:   641 Max: 22499 Err:  2524 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 18:59:30,238 INFO o.a.j.r.Summariser: summary =  44648 in 00:08:56 =   83.2/s Avg:  1580 Min:    73 Max: 22570 Err: 44648 (100.00%)
+2018-02-17 19:00:00,181 INFO o.a.j.r.Summariser: summary +   2494 in 00:00:30 =   83.2/s Avg:  1416 Min:   597 Max:  6671 Err:  2494 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:00:00,187 INFO o.a.j.r.Summariser: summary =  47142 in 00:09:26 =   83.2/s Avg:  1571 Min:    73 Max: 22570 Err: 47142 (100.00%)
+2018-02-17 19:00:30,078 INFO o.a.j.r.Summariser: summary +   2527 in 00:00:30 =   84.5/s Avg:  1398 Min:   646 Max:  6075 Err:  2527 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:00:30,082 INFO o.a.j.r.Summariser: summary =  49669 in 00:09:56 =   83.3/s Avg:  1562 Min:    73 Max: 22570 Err: 49669 (100.00%)
+2018-02-17 19:01:00,043 INFO o.a.j.r.Summariser: summary +   2528 in 00:00:30 =   84.4/s Avg:  1407 Min:   553 Max:  7730 Err:  2528 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:01:00,048 INFO o.a.j.r.Summariser: summary =  52197 in 00:10:26 =   83.3/s Avg:  1555 Min:    73 Max: 22570 Err: 52197 (100.00%)
+2018-02-17 19:01:30,044 INFO o.a.j.r.Summariser: summary +   2493 in 00:00:30 =   83.1/s Avg:  1358 Min:   577 Max:  6610 Err:  2493 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:01:30,048 INFO o.a.j.r.Summariser: summary =  54690 in 00:10:56 =   83.3/s Avg:  1546 Min:    73 Max: 22570 Err: 54690 (100.00%)
+2018-02-17 19:02:00,204 INFO o.a.j.r.Summariser: summary +   2507 in 00:00:30 =   83.1/s Avg:  1341 Min:   583 Max:  5981 Err:  2507 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:02:00,209 INFO o.a.j.r.Summariser: summary =  57197 in 00:11:26 =   83.3/s Avg:  1537 Min:    73 Max: 22570 Err: 57197 (100.00%)
+2018-02-17 19:02:30,064 INFO o.a.j.r.Summariser: summary +   2517 in 00:00:30 =   84.3/s Avg:  1329 Min:   625 Max: 22198 Err:  2517 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:02:30,069 INFO o.a.j.r.Summariser: summary =  59714 in 00:11:56 =   83.4/s Avg:  1528 Min:    73 Max: 22570 Err: 59714 (100.00%)
+2018-02-17 19:03:00,145 INFO o.a.j.r.Summariser: summary +   2510 in 00:00:30 =   83.4/s Avg:  1361 Min:   557 Max: 22304 Err:  2510 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:03:00,151 INFO o.a.j.r.Summariser: summary =  62224 in 00:12:26 =   83.4/s Avg:  1521 Min:    73 Max: 22570 Err: 62224 (100.00%)
+2018-02-17 19:03:30,053 INFO o.a.j.r.Summariser: summary +   2517 in 00:00:30 =   84.2/s Avg:  1321 Min:   667 Max:  9945 Err:  2517 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:03:30,058 INFO o.a.j.r.Summariser: summary =  64741 in 00:12:56 =   83.4/s Avg:  1514 Min:    73 Max: 22570 Err: 64741 (100.00%)
+2018-02-17 19:04:00,020 INFO o.a.j.r.Summariser: summary +   2499 in 00:00:30 =   83.4/s Avg:  1325 Min:   675 Max:  5648 Err:  2499 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:04:00,034 INFO o.a.j.r.Summariser: summary =  67240 in 00:13:26 =   83.4/s Avg:  1507 Min:    73 Max: 22570 Err: 67240 (100.00%)
+2018-02-17 19:04:30,030 INFO o.a.j.r.Summariser: summary +   2515 in 00:00:30 =   83.8/s Avg:  1313 Min:   463 Max: 18613 Err:  2515 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:04:30,035 INFO o.a.j.r.Summariser: summary =  69755 in 00:13:56 =   83.4/s Avg:  1500 Min:    73 Max: 22570 Err: 69755 (100.00%)
+2018-02-17 19:05:00,051 INFO o.a.j.r.Summariser: summary +   2499 in 00:00:30 =   83.2/s Avg:  1299 Min:   619 Max:  6186 Err:  2499 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:05:00,081 INFO o.a.j.r.Summariser: summary =  72254 in 00:14:26 =   83.4/s Avg:  1493 Min:    73 Max: 22570 Err: 72254 (100.00%)
+2018-02-17 19:05:30,011 INFO o.a.j.r.Summariser: summary +   2513 in 00:00:30 =   83.9/s Avg:  1267 Min:   353 Max: 10320 Err:  2513 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:05:30,017 INFO o.a.j.r.Summariser: summary =  74767 in 00:14:56 =   83.4/s Avg:  1485 Min:    73 Max: 22570 Err: 74767 (100.00%)
+2018-02-17 19:06:00,114 INFO o.a.j.r.Summariser: summary +   2497 in 00:00:30 =   83.0/s Avg:  1292 Min:   680 Max: 22363 Err:  2497 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:06:00,119 INFO o.a.j.r.Summariser: summary =  77264 in 00:15:26 =   83.4/s Avg:  1479 Min:    73 Max: 22570 Err: 77264 (100.00%)
+2018-02-17 19:06:30,116 INFO o.a.j.r.Summariser: summary +   2518 in 00:00:30 =   83.9/s Avg:  1282 Min:   630 Max:  5274 Err:  2518 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:06:30,120 INFO o.a.j.r.Summariser: summary =  79782 in 00:15:56 =   83.4/s Avg:  1473 Min:    73 Max: 22570 Err: 79782 (100.00%)
+2018-02-17 19:07:00,001 INFO o.a.j.r.Summariser: summary +   2488 in 00:00:30 =   83.3/s Avg:  1242 Min:   497 Max:  6087 Err:  2488 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:07:00,016 INFO o.a.j.r.Summariser: summary =  82270 in 00:16:26 =   83.4/s Avg:  1466 Min:    73 Max: 22570 Err: 82270 (100.00%)
+2018-02-17 19:07:30,123 INFO o.a.j.r.Summariser: summary +   2518 in 00:00:30 =   83.6/s Avg:  1229 Min:   456 Max:  9634 Err:  2518 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:07:30,127 INFO o.a.j.r.Summariser: summary =  84788 in 00:16:56 =   83.4/s Avg:  1459 Min:    73 Max: 22570 Err: 84788 (100.00%)
+2018-02-17 19:08:00,000 INFO o.a.j.r.Summariser: summary +   2510 in 00:00:30 =   84.0/s Avg:  1218 Min:   536 Max:  6257 Err:  2510 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:08:00,006 INFO o.a.j.r.Summariser: summary =  87298 in 00:17:26 =   83.4/s Avg:  1452 Min:    73 Max: 22570 Err: 87298 (100.00%)
+2018-02-17 19:08:30,039 INFO o.a.j.r.Summariser: summary +   2501 in 00:00:30 =   83.3/s Avg:  1200 Min:   570 Max: 10132 Err:  2501 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:08:30,043 INFO o.a.j.r.Summariser: summary =  89799 in 00:17:56 =   83.4/s Avg:  1445 Min:    73 Max: 22570 Err: 89799 (100.00%)
+2018-02-17 19:09:00,131 INFO o.a.j.r.Summariser: summary +   2521 in 00:00:30 =   83.8/s Avg:  1215 Min:   605 Max: 11731 Err:  2521 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:09:00,146 INFO o.a.j.r.Summariser: summary =  92320 in 00:18:26 =   83.4/s Avg:  1438 Min:    73 Max: 22570 Err: 92320 (100.00%)
+2018-02-17 19:09:30,019 INFO o.a.j.r.Summariser: summary +   2503 in 00:00:30 =   83.7/s Avg:  1219 Min:   596 Max: 22077 Err:  2503 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:09:30,045 INFO o.a.j.r.Summariser: summary =  94823 in 00:18:56 =   83.5/s Avg:  1433 Min:    73 Max: 22570 Err: 94823 (100.00%)
+2018-02-17 19:10:00,144 INFO o.a.j.r.Summariser: summary +   2514 in 00:00:30 =   83.5/s Avg:  1202 Min:   586 Max:  5735 Err:  2514 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:10:00,149 INFO o.a.j.r.Summariser: summary =  97337 in 00:19:26 =   83.5/s Avg:  1427 Min:    73 Max: 22570 Err: 97337 (100.00%)
+2018-02-17 19:10:30,018 INFO o.a.j.r.Summariser: summary +   2474 in 00:00:30 =   82.8/s Avg:  1193 Min:   481 Max:  6404 Err:  2474 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:10:30,030 INFO o.a.j.r.Summariser: summary =  99811 in 00:19:56 =   83.4/s Avg:  1421 Min:    73 Max: 22570 Err: 99811 (100.00%)
+2018-02-17 19:11:00,006 INFO o.a.j.r.Summariser: summary +   2500 in 00:00:30 =   83.4/s Avg:  1208 Min:   493 Max:  6552 Err:  2500 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:11:00,011 INFO o.a.j.r.Summariser: summary = 102311 in 00:20:26 =   83.4/s Avg:  1416 Min:    73 Max: 22570 Err: 102311 (100.00%)
+2018-02-17 19:11:30,016 INFO o.a.j.r.Summariser: summary +   2516 in 00:00:30 =   83.8/s Avg:  1191 Min:   629 Max:  6051 Err:  2516 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:11:30,021 INFO o.a.j.r.Summariser: summary = 104827 in 00:20:56 =   83.4/s Avg:  1410 Min:    73 Max: 22570 Err: 104827 (100.00%)
+2018-02-17 19:12:00,077 INFO o.a.j.r.Summariser: summary +   2506 in 00:00:30 =   83.4/s Avg:  1189 Min:   529 Max: 22298 Err:  2506 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:12:00,084 INFO o.a.j.r.Summariser: summary = 107333 in 00:21:26 =   83.4/s Avg:  1405 Min:    73 Max: 22570 Err: 107333 (100.00%)
+2018-02-17 19:12:30,187 INFO o.a.j.r.Summariser: summary +   2503 in 00:00:30 =   83.1/s Avg:  1210 Min:   621 Max: 22282 Err:  2503 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:12:30,195 INFO o.a.j.r.Summariser: summary = 109836 in 00:21:56 =   83.4/s Avg:  1401 Min:    73 Max: 22570 Err: 109836 (100.00%)
+2018-02-17 19:13:00,014 INFO o.a.j.r.Summariser: summary +   2512 in 00:00:30 =   84.2/s Avg:  1190 Min:   579 Max:  4990 Err:  2512 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:13:00,022 INFO o.a.j.r.Summariser: summary = 112348 in 00:22:26 =   83.5/s Avg:  1396 Min:    73 Max: 22570 Err: 112348 (100.00%)
+2018-02-17 19:13:30,144 INFO o.a.j.r.Summariser: summary +   2497 in 00:00:30 =   82.9/s Avg:  1182 Min:   602 Max:  6317 Err:  2497 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:13:30,148 INFO o.a.j.r.Summariser: summary = 114845 in 00:22:56 =   83.4/s Avg:  1391 Min:    73 Max: 22570 Err: 114845 (100.00%)
+2018-02-17 19:14:00,000 INFO o.a.j.r.Summariser: summary +   2483 in 00:00:30 =   83.2/s Avg:  1179 Min:   443 Max:  7132 Err:  2483 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:14:00,021 INFO o.a.j.r.Summariser: summary = 117328 in 00:23:26 =   83.4/s Avg:  1387 Min:    73 Max: 22570 Err: 117328 (100.00%)
+2018-02-17 19:14:30,027 INFO o.a.j.r.Summariser: summary +   2498 in 00:00:30 =   83.2/s Avg:  1182 Min:   577 Max:  5538 Err:  2498 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:14:30,031 INFO o.a.j.r.Summariser: summary = 119826 in 00:23:56 =   83.4/s Avg:  1383 Min:    73 Max: 22570 Err: 119826 (100.00%)
+2018-02-17 19:15:00,018 INFO o.a.j.r.Summariser: summary +   2489 in 00:00:30 =   83.0/s Avg:  1172 Min:   603 Max:  5803 Err:  2489 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:15:00,023 INFO o.a.j.r.Summariser: summary = 122315 in 00:24:26 =   83.4/s Avg:  1378 Min:    73 Max: 22570 Err: 122315 (100.00%)
+2018-02-17 19:15:30,115 INFO o.a.j.r.Summariser: summary +   2513 in 00:00:30 =   83.5/s Avg:  1180 Min:   508 Max: 10205 Err:  2513 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:15:30,126 INFO o.a.j.r.Summariser: summary = 124828 in 00:24:56 =   83.4/s Avg:  1374 Min:    73 Max: 22570 Err: 124828 (100.00%)
+2018-02-17 19:16:00,023 INFO o.a.j.r.Summariser: summary +   2485 in 00:00:30 =   83.1/s Avg:  1169 Min:   477 Max:  5046 Err:  2485 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:16:00,029 INFO o.a.j.r.Summariser: summary = 127313 in 00:25:26 =   83.4/s Avg:  1370 Min:    73 Max: 22570 Err: 127313 (100.00%)
+2018-02-17 19:16:30,036 INFO o.a.j.r.Summariser: summary +   2506 in 00:00:30 =   83.5/s Avg:  1175 Min:   614 Max:  5837 Err:  2506 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:16:30,038 INFO o.a.j.r.Summariser: summary = 129819 in 00:25:56 =   83.4/s Avg:  1367 Min:    73 Max: 22570 Err: 129819 (100.00%)
+2018-02-17 19:17:00,007 INFO o.a.j.r.Summariser: summary +   2519 in 00:00:30 =   84.0/s Avg:  1156 Min:   611 Max:  6347 Err:  2519 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:17:00,012 INFO o.a.j.r.Summariser: summary = 132338 in 00:26:26 =   83.4/s Avg:  1363 Min:    73 Max: 22570 Err: 132338 (100.00%)
+2018-02-17 19:17:30,146 INFO o.a.j.r.Summariser: summary +   2509 in 00:00:30 =   83.2/s Avg:  1155 Min:   430 Max:  5019 Err:  2509 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:17:30,150 INFO o.a.j.r.Summariser: summary = 134847 in 00:26:56 =   83.4/s Avg:  1359 Min:    73 Max: 22570 Err: 134847 (100.00%)
+2018-02-17 19:18:00,112 INFO o.a.j.r.Summariser: summary +   2504 in 00:00:30 =   83.6/s Avg:  1163 Min:   486 Max:  5916 Err:  2504 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:18:00,116 INFO o.a.j.r.Summariser: summary = 137351 in 00:27:26 =   83.4/s Avg:  1355 Min:    73 Max: 22570 Err: 137351 (100.00%)
+2018-02-17 19:18:30,016 INFO o.a.j.r.Summariser: summary +   2504 in 00:00:30 =   83.7/s Avg:  1138 Min:   615 Max:  5120 Err:  2504 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:18:30,020 INFO o.a.j.r.Summariser: summary = 139855 in 00:27:56 =   83.4/s Avg:  1351 Min:    73 Max: 22570 Err: 139855 (100.00%)
+2018-02-17 19:19:00,071 INFO o.a.j.r.Summariser: summary +   2489 in 00:00:30 =   82.8/s Avg:  1171 Min:   588 Max: 22024 Err:  2489 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:19:00,079 INFO o.a.j.r.Summariser: summary = 142344 in 00:28:26 =   83.4/s Avg:  1348 Min:    73 Max: 22570 Err: 142344 (100.00%)
+2018-02-17 19:19:30,208 INFO o.a.j.r.Summariser: summary +   2520 in 00:00:30 =   83.6/s Avg:  1150 Min:   499 Max:  5441 Err:  2520 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:19:30,213 INFO o.a.j.r.Summariser: summary = 144864 in 00:28:56 =   83.4/s Avg:  1345 Min:    73 Max: 22570 Err: 144864 (100.00%)
+2018-02-17 19:20:00,027 INFO o.a.j.r.Summariser: summary +   2482 in 00:00:30 =   83.2/s Avg:  1150 Min:   525 Max:  5009 Err:  2482 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:20:00,033 INFO o.a.j.r.Summariser: summary = 147346 in 00:29:26 =   83.4/s Avg:  1341 Min:    73 Max: 22570 Err: 147346 (100.00%)
+2018-02-17 19:20:30,028 INFO o.a.j.r.Summariser: summary +   2487 in 00:00:30 =   82.9/s Avg:  1158 Min:   613 Max:  7286 Err:  2487 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:20:30,038 INFO o.a.j.r.Summariser: summary = 149833 in 00:29:56 =   83.4/s Avg:  1338 Min:    73 Max: 22570 Err: 149833 (100.00%)
+2018-02-17 19:21:00,112 INFO o.a.j.r.Summariser: summary +   2479 in 00:00:30 =   82.4/s Avg:  1159 Min:   578 Max:  7790 Err:  2479 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:21:00,118 INFO o.a.j.r.Summariser: summary = 152312 in 00:30:26 =   83.4/s Avg:  1335 Min:    73 Max: 22570 Err: 152312 (100.00%)
+2018-02-17 19:21:30,002 INFO o.a.j.r.Summariser: summary +   2433 in 00:00:30 =   81.4/s Avg:  1163 Min:   640 Max:  4239 Err:  2433 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:21:30,038 INFO o.a.j.r.Summariser: summary = 154745 in 00:30:56 =   83.4/s Avg:  1333 Min:    73 Max: 22570 Err: 154745 (100.00%)
+2018-02-17 19:22:00,008 INFO o.a.j.r.Summariser: summary +   2470 in 00:00:30 =   82.3/s Avg:  1159 Min:   589 Max: 22211 Err:  2470 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:22:00,012 INFO o.a.j.r.Summariser: summary = 157215 in 00:31:26 =   83.3/s Avg:  1330 Min:    73 Max: 22570 Err: 157215 (100.00%)
+2018-02-17 19:22:30,027 INFO o.a.j.r.Summariser: summary +   2492 in 00:00:30 =   83.0/s Avg:  1153 Min:   571 Max: 23184 Err:  2492 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:22:30,028 INFO o.a.j.r.Summariser: summary = 159707 in 00:31:56 =   83.3/s Avg:  1327 Min:    73 Max: 23184 Err: 159707 (100.00%)
+2018-02-17 19:23:00,041 INFO o.a.j.r.Summariser: summary +   2504 in 00:00:30 =   83.4/s Avg:  1137 Min:   566 Max: 10258 Err:  2504 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:23:00,043 INFO o.a.j.r.Summariser: summary = 162211 in 00:32:26 =   83.3/s Avg:  1324 Min:    73 Max: 23184 Err: 162211 (100.00%)
+2018-02-17 19:23:30,030 INFO o.a.j.r.Summariser: summary +   2517 in 00:00:30 =   83.9/s Avg:  1135 Min:   643 Max:  6303 Err:  2517 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:23:30,033 INFO o.a.j.r.Summariser: summary = 164728 in 00:32:56 =   83.4/s Avg:  1321 Min:    73 Max: 23184 Err: 164728 (100.00%)
+2018-02-17 19:24:00,276 INFO o.a.j.r.Summariser: summary +   2524 in 00:00:30 =   83.4/s Avg:  1129 Min:   636 Max:  6005 Err:  2524 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:24:00,278 INFO o.a.j.r.Summariser: summary = 167252 in 00:33:27 =   83.4/s Avg:  1318 Min:    73 Max: 23184 Err: 167252 (100.00%)
+2018-02-17 19:24:30,107 INFO o.a.j.r.Summariser: summary +   2505 in 00:00:30 =   84.0/s Avg:  1122 Min:   495 Max: 10228 Err:  2505 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:24:30,134 INFO o.a.j.r.Summariser: summary = 169757 in 00:33:56 =   83.4/s Avg:  1316 Min:    73 Max: 23184 Err: 169757 (100.00%)
+2018-02-17 19:25:00,000 INFO o.a.j.r.Summariser: summary +   2525 in 00:00:30 =   84.5/s Avg:  1116 Min:   541 Max: 22568 Err:  2525 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:25:00,002 INFO o.a.j.r.Summariser: summary = 172282 in 00:34:26 =   83.4/s Avg:  1313 Min:    73 Max: 23184 Err: 172282 (100.00%)
+2018-02-17 19:25:30,084 INFO o.a.j.r.Summariser: summary +   2504 in 00:00:30 =   83.2/s Avg:  1124 Min:   463 Max: 21900 Err:  2504 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:25:30,084 INFO o.a.j.r.Summariser: summary = 174786 in 00:34:56 =   83.4/s Avg:  1310 Min:    73 Max: 23184 Err: 174786 (100.00%)
+2018-02-17 19:26:00,023 INFO o.a.j.r.Summariser: summary +   2507 in 00:00:30 =   83.7/s Avg:  1130 Min:   451 Max:  5654 Err:  2507 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:26:00,140 INFO o.a.j.r.Summariser: summary = 177293 in 00:35:26 =   83.4/s Avg:  1307 Min:    73 Max: 23184 Err: 177293 (100.00%)
+2018-02-17 19:26:30,024 INFO o.a.j.r.Summariser: summary +   2517 in 00:00:30 =   83.9/s Avg:  1116 Min:   534 Max:  9987 Err:  2517 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:26:30,025 INFO o.a.j.r.Summariser: summary = 179810 in 00:35:56 =   83.4/s Avg:  1305 Min:    73 Max: 23184 Err: 179810 (100.00%)
+2018-02-17 19:27:00,011 INFO o.a.j.r.Summariser: summary +   2512 in 00:00:30 =   83.8/s Avg:  1113 Min:   644 Max:  5359 Err:  2512 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:27:00,012 INFO o.a.j.r.Summariser: summary = 182322 in 00:36:26 =   83.4/s Avg:  1302 Min:    73 Max: 23184 Err: 182322 (100.00%)
+2018-02-17 19:27:30,014 INFO o.a.j.r.Summariser: summary +   2535 in 00:00:30 =   84.5/s Avg:  1102 Min:   634 Max:  5850 Err:  2535 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:27:30,025 INFO o.a.j.r.Summariser: summary = 184857 in 00:36:56 =   83.4/s Avg:  1299 Min:    73 Max: 23184 Err: 184857 (100.00%)
+2018-02-17 19:28:00,017 INFO o.a.j.r.Summariser: summary +   2482 in 00:00:30 =   82.7/s Avg:  1115 Min:   532 Max:  5077 Err:  2482 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:28:00,018 INFO o.a.j.r.Summariser: summary = 187339 in 00:37:26 =   83.4/s Avg:  1297 Min:    73 Max: 23184 Err: 187339 (100.00%)
+2018-02-17 19:28:30,131 INFO o.a.j.r.Summariser: summary +   2513 in 00:00:30 =   83.5/s Avg:  1116 Min:   552 Max: 22042 Err:  2513 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:28:30,136 INFO o.a.j.r.Summariser: summary = 189852 in 00:37:56 =   83.4/s Avg:  1294 Min:    73 Max: 23184 Err: 189852 (100.00%)
+2018-02-17 19:29:00,104 INFO o.a.j.r.Summariser: summary +   2496 in 00:00:30 =   83.3/s Avg:  1111 Min:   379 Max:  5089 Err:  2496 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:29:00,105 INFO o.a.j.r.Summariser: summary = 192348 in 00:38:26 =   83.4/s Avg:  1292 Min:    73 Max: 23184 Err: 192348 (100.00%)
+2018-02-17 19:29:30,158 INFO o.a.j.r.Summariser: summary +   2521 in 00:00:30 =   83.9/s Avg:  1118 Min:   481 Max:  6393 Err:  2521 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:29:30,158 INFO o.a.j.r.Summariser: summary = 194869 in 00:38:56 =   83.4/s Avg:  1290 Min:    73 Max: 23184 Err: 194869 (100.00%)
+2018-02-17 19:30:00,022 INFO o.a.j.r.Summariser: summary +   2495 in 00:00:30 =   83.5/s Avg:  1101 Min:   506 Max:  5131 Err:  2495 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:30:00,024 INFO o.a.j.r.Summariser: summary = 197364 in 00:39:26 =   83.4/s Avg:  1287 Min:    73 Max: 23184 Err: 197364 (100.00%)
+2018-02-17 19:30:30,015 INFO o.a.j.r.Summariser: summary +   2506 in 00:00:30 =   83.6/s Avg:  1097 Min:   516 Max:  5936 Err:  2506 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:30:30,017 INFO o.a.j.r.Summariser: summary = 199870 in 00:39:56 =   83.4/s Avg:  1285 Min:    73 Max: 23184 Err: 199870 (100.00%)
+2018-02-17 19:31:00,055 INFO o.a.j.r.Summariser: summary +   2506 in 00:00:30 =   83.4/s Avg:  1102 Min:   483 Max:  5878 Err:  2506 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:31:00,058 INFO o.a.j.r.Summariser: summary = 202376 in 00:40:26 =   83.4/s Avg:  1283 Min:    73 Max: 23184 Err: 202376 (100.00%)
+2018-02-17 19:31:30,040 INFO o.a.j.r.Summariser: summary +   2500 in 00:00:30 =   83.4/s Avg:  1089 Min:   567 Max:  9818 Err:  2500 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:31:30,049 INFO o.a.j.r.Summariser: summary = 204876 in 00:40:56 =   83.4/s Avg:  1280 Min:    73 Max: 23184 Err: 204876 (100.00%)
+2018-02-17 19:32:00,091 INFO o.a.j.r.Summariser: summary +   2504 in 00:00:30 =   83.3/s Avg:  1078 Min:   586 Max:  5778 Err:  2504 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:32:00,093 INFO o.a.j.r.Summariser: summary = 207380 in 00:41:26 =   83.4/s Avg:  1278 Min:    73 Max: 23184 Err: 207380 (100.00%)
+2018-02-17 19:32:30,063 INFO o.a.j.r.Summariser: summary +   2490 in 00:00:30 =   83.1/s Avg:  1084 Min:   584 Max:  4955 Err:  2490 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:32:30,075 INFO o.a.j.r.Summariser: summary = 209870 in 00:41:56 =   83.4/s Avg:  1276 Min:    73 Max: 23184 Err: 209870 (100.00%)
+2018-02-17 19:33:00,130 INFO o.a.j.r.Summariser: summary +   2364 in 00:00:30 =   78.6/s Avg:  1137 Min:   598 Max:  4824 Err:  2364 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:33:00,181 INFO o.a.j.r.Summariser: summary = 212234 in 00:42:26 =   83.3/s Avg:  1274 Min:    73 Max: 23184 Err: 212234 (100.00%)
+2018-02-17 19:33:30,013 INFO o.a.j.r.Summariser: summary +   2423 in 00:00:30 =   81.1/s Avg:  1121 Min:   562 Max:  5394 Err:  2423 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:33:30,014 INFO o.a.j.r.Summariser: summary = 214657 in 00:42:56 =   83.3/s Avg:  1272 Min:    73 Max: 23184 Err: 214657 (100.00%)
+2018-02-17 19:34:00,167 INFO o.a.j.r.Summariser: summary +   2434 in 00:00:30 =   80.7/s Avg:  1109 Min:   610 Max:  6703 Err:  2434 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:34:01,042 INFO o.a.j.r.Summariser: summary = 217091 in 00:43:26 =   83.3/s Avg:  1271 Min:    73 Max: 23184 Err: 217091 (100.00%)
+2018-02-17 19:34:30,007 INFO o.a.j.r.Summariser: summary +   2486 in 00:00:30 =   83.3/s Avg:  1085 Min:   507 Max:  5948 Err:  2486 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:34:30,012 INFO o.a.j.r.Summariser: summary = 219577 in 00:43:56 =   83.3/s Avg:  1268 Min:    73 Max: 23184 Err: 219577 (100.00%)
+2018-02-17 19:35:00,035 INFO o.a.j.r.Summariser: summary +   2472 in 00:00:30 =   82.3/s Avg:  1087 Min:   497 Max: 10144 Err:  2472 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:35:00,040 INFO o.a.j.r.Summariser: summary = 222049 in 00:44:26 =   83.3/s Avg:  1266 Min:    73 Max: 23184 Err: 222049 (100.00%)
+2018-02-17 19:35:30,011 INFO o.a.j.r.Summariser: summary +   2485 in 00:00:30 =   82.9/s Avg:  1084 Min:   410 Max:  5985 Err:  2485 (100.00%) Active: 170 Started: 170 Finished: 0
+2018-02-17 19:35:30,017 INFO o.a.j.r.Summariser: summary = 224534 in 00:44:56 =   83.3/s Avg:  1264 Min:    73 Max: 23184 Err: 224534 (100.00%)
+2018-02-17 19:35:53,790 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2018-02-17 19:35:53,791 INFO o.a.j.r.ResultCollector: Shutdown hook ended

@@ -1,2 +1,2 @@
 # Jmeter
-Functional load tests to test localhost
+Functional load tests to test localhost server
